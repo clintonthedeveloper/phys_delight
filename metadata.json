@@ -1,0 +1,8 @@
+{
+  "name": "Phy's Kitchen Delights",
+  "description": "Boutique handcrafted pastries, custom cakes, and artisanal celebration treats by Phy's Kitchen Delights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

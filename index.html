@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO & Social Sharing Meta Tags -->
+  <title>Phy's Kitchen Delights | Luxury Handcrafted Pastries & Custom Cakes</title>
+  <meta name="description" content="Boutique handcrafted pastries, custom cakes, and artisanal celebration treats by Phy's Kitchen Delights." />
+  <meta name="keywords" content="pastry, boutique bakery, custom cakes, wedding cakes, cupcakes, macarons, Nairobi Kenya, graduation cakes, celebration treats" />
+  <meta name="author" content="Phy's Kitchen Delights" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Phy's Kitchen Delights | Luxury Handcrafted Pastries & Custom Cakes" />
+  <meta property="og:description" content="Boutique handcrafted pastries, custom cakes, and artisanal celebration treats by Phy's Kitchen Delights." />
+  <meta property="og:image" content="/src/assets/images/hero_pastry_delights_1794395611842.jpg" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Phy's Kitchen Delights | Luxury Handcrafted Pastries & Custom Cakes" />
+  <meta name="twitter:description" content="Boutique handcrafted pastries, custom cakes, and artisanal celebration treats by Phy's Kitchen Delights." />
+  <meta name="twitter:image" content="/src/assets/images/hero_pastry_delights_1794395611842.jpg" />
+
+  <!-- Favicon (Inline SVG Pastry Emblem) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23fce8ed' stroke='%23cfa84a' stroke-width='4'/><path d='M30 65 Q50 45 70 65 L65 80 Q50 82 35 80 Z' fill='%23d6647f'/><circle cx='50' cy='40' r='18' fill='%23fdfbf7' stroke='%23cfa84a' stroke-width='3'/><circle cx='50' cy='22' r='6' fill='%23bd4865'/></svg>" />
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- =========================================================================
+       PAGE LOADER
+       ========================================================================= -->
+  <div class="page-loader" id="page-loader" aria-hidden="true">
+    <svg class="loader-icon" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="45" fill="#fce8ed" stroke="#cfa84a" stroke-width="3" stroke-dasharray="6 4" />
+      <path d="M32 62 Q50 42 68 62 L64 78 Q50 82 36 78 Z" fill="#d6647f" />
+      <circle cx="50" cy="40" r="16" fill="#fdfbf7" stroke="#cfa84a" stroke-width="2" />
+      <circle cx="50" cy="24" r="5" fill="#bd4865" />
+    </svg>
+    <div class="loader-text">Phy's Kitchen Delights</div>
+  </div>
+
+  <!-- =========================================================================
+       1. STICKY NAVIGATION BAR
+       ========================================================================= -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <!-- Brand Wordmark -->
+      <a href="#home" class="brand-logo" aria-label="Phy's Kitchen Delights - Home">
+        Phy's Kitchen Delights
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#creations" class="nav-link">Our Creations</a>
+        <a href="#how-to-order" class="nav-link">How to Order</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop WhatsApp Pill Button -->
+      <a href="https://wa.me/25416194387?text=Hello%20Phy's%20Kitchen%20Delights!%20I%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20more%20details%3F" 
+         class="nav-cta-btn" 
+         data-whatsapp-link 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         aria-label="Order on WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/></svg>
+        <span>Order on WhatsApp</span>
+      </a>
+
+      <!-- Mobile Hamburger Menu Button -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open Navigation Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer & Backdrop -->
+  <div class="mobile-nav-backdrop" id="mobile-nav-backdrop"></div>
+  <aside class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation">
+    <div class="mobile-nav-list">
+      <a href="#home" class="mobile-nav-link active">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#creations" class="mobile-nav-link">Our Creations</a>
+      <a href="#how-to-order" class="mobile-nav-link">How to Order</a>
+      <a href="#reviews" class="mobile-nav-link">Reviews</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+    <a href="https://wa.me/25416194387?text=Hello%20Phy's%20Kitchen%20Delights!%20I%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20more%20details%3F" 
+       class="mobile-cta-btn" 
+       data-whatsapp-link 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       aria-label="Chat with Phy's Kitchen Delights on WhatsApp">
+      <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/></svg>
+      <span>Order on WhatsApp</span>
+    </a>
+  </aside>
+
+  <main>
+    <!-- =======================================================================
+         2. HERO SECTION
+         ======================================================================= -->
+    <section class="hero-section" id="home" style="background-image: url('/src/assets/images/hero_pastry_delights_1794395611842.jpg');">
+      <div class="hero-overlay"></div>
+
+      <!-- Floating Decorative Elements -->
+      <div class="floating-ornament ornament-1" aria-hidden="true">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="#cfa84a"><path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.5-6.2 4.5 2.4-7.4-6.2-4.5h7.6z"/></svg>
+      </div>
+      <div class="floating-ornament ornament-2" aria-hidden="true">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="#e78aa0"><circle cx="12" cy="12" r="8" opacity="0.5"/><path d="M12 4a8 8 0 0 1 8 8c0 4.41-3.59 8-8 8s-8-3.59-8-8a8 8 0 0 1 8-8z"/></svg>
+      </div>
+      <div class="floating-ornament ornament-3" aria-hidden="true">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="#cfa84a"><path d="M12 3v18M3 12h18" stroke="#cfa84a" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-sub-badge">
+          <svg viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/></svg>
+          <span>Luxury Boutique Bakery</span>
+        </div>
+
+        <h1 class="hero-title">Phy's Kitchen Delights</h1>
+        <p class="hero-tagline">"Handcrafted sweetness for every celebration"</p>
+        <p class="hero-description">
+          Bespoke wedding centerpieces, artistic celebration cakes, warm cinnamon rolls, and gourmet pastry boxes freshly baked with love, premium ingredients, and unmatched artistry.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#creations" class="btn-primary">
+            <span>View Our Creations</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+          </a>
+
+          <a href="https://wa.me/25416194387?text=Hello%20Phy's%20Kitchen%20Delights!%20I%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20more%20details%3F" 
+             class="btn-whatsapp" 
+             data-whatsapp-link 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             aria-label="Order on WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/></svg>
+            <span>Order on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scalloped Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 C150,90 350,-40 500,50 C650,140 900,-20 1200,40 L1200,120 L0,120 Z" fill="#fdfbf7"></path>
+      </svg>
+    </div>
+
+    <!-- =======================================================================
+         3. ABOUT SECTION
+         ======================================================================= -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Decorative Image with Layered Gold Frame -->
+          <div class="about-image-wrapper reveal-on-scroll">
+            <div class="about-image-card">
+              <img 
+                src="/src/assets/images/about_pastry_baker_1794395612297.jpg" 
+                alt="Phy, passionate pastry chef and founder of Phy's Kitchen Delights, handcrafting a bespoke celebration floral cake" 
+                loading="lazy" 
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <div class="about-badge-floating">
+              <div class="about-badge-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              </div>
+              <div>
+                <div class="about-badge-title">Baked with Devotion</div>
+                <div class="about-badge-sub">Bespoke Boutique Recipes</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Warm Paragraph and Story -->
+          <div class="about-content reveal-on-scroll stagger-1">
+            <span class="section-kicker">Our Sweet Story</span>
+            <h2 class="section-title">Passion, Flour &amp; Pure Artistry</h2>
+            <div class="gold-flourish" style="justify-content: flex-start; margin-bottom: 1.5rem;">
+              <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.5-6.2 4.5 2.4-7.4-6.2-4.5h7.6z"/></svg>
+            </div>
+
+            <p class="about-text">
+              Welcome to <strong>Phy's Kitchen Delights</strong>, where confectionery craftsmanship meets heartwarming flavors. Founded by a dedicated female home baker with a relentless passion for perfection, our boutique kitchen turns every special milestone into an unforgettable culinary celebration.
+            </p>
+            <p class="about-text">
+              From majestic tiered wedding showpieces adorned with delicate gold foil and sugar blooms to melt-in-your-mouth cinnamon rolls, fresh brioche doughnuts, and indulgent brownies, each creation is tailored to capture the essence of your sweetest memories. We blend time-honored artisanal techniques with modern pastry elegance.
+            </p>
+
+            <div class="about-features">
+              <div class="about-feature-item">
+                <div class="about-feature-bullet">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <div class="about-feature-text">
+                  <h4>100% Custom Designs</h4>
+                  <p>Tailored themes, colors, and flavors for your unique event.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="about-feature-bullet">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <div class="about-feature-text">
+                  <h4>Finest Ingredients</h4>
+                  <p>Real butter, gourmet Belgian chocolates, and fresh fruits.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="about-feature-bullet">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <div class="about-feature-text">
+                  <h4>Fresh Daily Baking</h4>
+                  <p>Baked fresh for your celebration day to guarantee supreme tenderness.</p>
+                </div>
+              </div>
+
+              <div class="about-feature-item">
+                <div class="about-feature-bullet">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <div class="about-feature-text">
+                  <h4>Seamless Ordering</h4>
+                  <p>Instant personal consultation and order coordination via WhatsApp.</p>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/25416194387?text=Hello%20Phy's%20Kitchen%20Delights!%20I%20would%20like%20to%20discuss%20a%20custom%20pastry%20order." 
+               class="btn-primary" 
+               data-whatsapp-link 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               aria-label="Order on WhatsApp">
+              <span>Chat with the Baker</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scalloped Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 C300,100 600,-40 900,60 C1050,110 1150,30 1200,70 L1200,120 L0,120 Z" fill="#fdf5f7"></path>
+      </svg>
+    </div>
+
+    <!-- =======================================================================
+         4. "OUR CREATIONS" GALLERY SECTION (MAIN FEATURE)
+         ======================================================================= -->
+    <section class="gallery-section" id="creations">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-kicker">Handcrafted Collection</span>
+          <h2 class="section-title">Our Sweet Creations</h2>
+          <p class="section-subtitle">
+            Explore our curated gallery of bespoke celebration cakes, artisanal pastries, and decadent bites. Click on any creation to view details and order directly on WhatsApp.
+          </p>
+          <div class="gold-flourish">
+            <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.5-6.2 4.5 2.4-7.4-6.2-4.5h7.6z"/></svg>
+          </div>
+        </div>
+
+        <!-- Filter Controls (All + 15 Categories) -->
+        <nav class="gallery-filters reveal-on-scroll stagger-1" id="gallery-filters" aria-label="Creation Category Filter">
+          <!-- Dynamically populated via script.js -->
+        </nav>
+
+        <!-- Gallery Grid (Pure picture + category name hover) -->
+        <div class="gallery-grid" id="gallery-grid" aria-live="polite">
+          <!-- Dynamically rendered via script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Pastry Creation Viewer">
+      <div class="lightbox-container">
+        <!-- Close Button -->
+        <button class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Close Lightbox">
+          <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+
+        <!-- Image Stage with Navigation Arrows -->
+        <div class="lightbox-stage">
+          <button class="lightbox-nav-btn lightbox-prev-btn" id="lightbox-prev-btn" aria-label="Previous Creation">
+            <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+          </button>
+          <img src="" alt="" class="lightbox-img" id="lightbox-img" />
+          <button class="lightbox-nav-btn lightbox-next-btn" id="lightbox-next-btn" aria-label="Next Creation">
+            <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+          </button>
+        </div>
+
+        <!-- Lightbox Action Bar -->
+        <div class="lightbox-bar">
+          <div class="lightbox-info">
+            <div class="lightbox-category-title" id="lightbox-category-title">Wedding Cakes</div>
+            <div class="lightbox-counter" id="lightbox-counter">1 of 18</div>
+          </div>
+
+          <a href="#" class="lightbox-order-btn" id="lightbox-order-btn" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/></svg>
+            <span>Order this on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scalloped Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 C200,90 450,-30 700,50 C950,130 1100,10 1200,60 L1200,120 L0,120 Z" fill="#fdfbf7"></path>
+      </svg>
+    </div>
+
+    <!-- =======================================================================
+         5. "HOW TO ORDER" SECTION
+         ======================================================================= -->
+    <section class="order-section" id="how-to-order">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-kicker">Simple &amp; Sweet</span>
+          <h2 class="section-title">How to Order</h2>
+          <p class="section-subtitle">
+            Sweet moments made simple in four easy steps
+          </p>
+          <div class="gold-flourish">
+            <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.5-6.2 4.5 2.4-7.4-6.2-4.5h7.6z"/></svg>
+          </div>
+        </div>
+
+        <div class="steps-container">
+          <div class="steps-timeline-line" aria-hidden="true"></div>
+
+          <div class="steps-grid">
+            <!-- Step 1 -->
+            <div class="step-card reveal-on-scroll stagger-1">
+              <div class="step-number-circle">1</div>
+              <div class="step-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+              </div>
+              <h3 class="step-title">Browse</h3>
+              <p class="step-description">Explore our creations and pick your favourites.</p>
+            </div>
+
+            <!-- Step 2 -->
+            <div class="step-card reveal-on-scroll stagger-2">
+              <div class="step-number-circle">2</div>
+              <div class="step-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/></svg>
+              </div>
+              <h3 class="step-title">Reach Out</h3>
+              <p class="step-description">Message us on WhatsApp, call, or email with your idea, date and number of guests.</p>
+            </div>
+
+            <!-- Step 3 -->
+            <div class="step-card reveal-on-scroll stagger-3">
+              <div class="step-number-circle">3</div>
+              <div class="step-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+              </div>
+              <h3 class="step-title">Confirm</h3>
+              <p class="step-description">We discuss the design, flavours and details, then confirm your order.</p>
+            </div>
+
+            <!-- Step 4 -->
+            <div class="step-card reveal-on-scroll stagger-4">
+              <div class="step-number-circle">4</div>
+              <div class="step-icon-wrapper" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              </div>
+              <h3 class="step-title">Enjoy</h3>
+              <p class="step-description">Collect or receive your freshly baked treats and celebrate!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-cta-wrap reveal-on-scroll stagger-2">
+          <a href="https://wa.me/25416194387?text=Hello%20Phy's%20Kitchen%20Delights!%20I%20would%20like%20to%20start%20my%20order." 
+             class="btn-whatsapp" 
+             data-whatsapp-link 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             aria-label="Start Your Order on WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/></svg>
+            <span>Start Your Order on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scalloped Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 C300,90 600,-30 900,60 C1050,110 1150,20 1200,60 L1200,120 L0,120 Z" fill="#fdf5f7"></path>
+      </svg>
+    </div>
+
+    <!-- =======================================================================
+         6. "REVIEWS" (TESTIMONIALS) SECTION
+         ======================================================================= -->
+    <section class="reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-kicker">Client Kind Words</span>
+          <h2 class="section-title">Sweet Words From Our Clients</h2>
+          <div class="gold-flourish">
+            <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.5-6.2 4.5 2.4-7.4-6.2-4.5h7.6z"/></svg>
+          </div>
+        </div>
+
+        <!-- STATIC GRID, NO CAROUSEL: 3 cols desktop, 2 cols tablet, 1 col mobile -->
+        <div class="reviews-grid" id="reviews-grid">
+          <!-- Dynamically populated with review text ONLY via script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Scalloped Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M0,0 C150,90 450,-30 750,60 C950,120 1100,20 1200,70 L1200,120 L0,120 Z" fill="#fdfbf7"></path>
+      </svg>
+    </div>
+
+    <!-- =======================================================================
+         7. CONTACT SECTION
+         ======================================================================= -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-kicker">Get in Touch</span>
+          <h2 class="section-title">Connect with Phy</h2>
+          <p class="section-subtitle">
+            Let's make your celebration sweeter. Reach out to place your order!
+          </p>
+          <div class="gold-flourish">
+            <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.4h7.6l-6.2 4.5 2.4 7.4-6.2-4.5-6.2 4.5 2.4-7.4-6.2-4.5h7.6z"/></svg>
+          </div>
+        </div>
+
+        <!-- 4 Contact Cards Grid -->
+        <div class="contact-cards-grid">
+          <!-- Phone Card -->
+          <a href="tel:+25416194387" class="contact-card reveal-on-scroll stagger-1" aria-label="Call Phy at +25416194387">
+            <div class="contact-icon-bubble">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </div>
+            <div class="contact-label">Phone</div>
+            <div class="contact-value">+25416194387</div>
+          </a>
+
+          <!-- WhatsApp Card -->
+          <a href="https://wa.me/25416194387?text=Hello%20Phy's%20Kitchen%20Delights!%20I%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20more%20details%3F" 
+             class="contact-card contact-whatsapp reveal-on-scroll stagger-2" 
+             data-whatsapp-link 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             aria-label="Chat with Phy's Kitchen Delights on WhatsApp">
+            <div class="contact-icon-bubble">
+              <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/></svg>
+            </div>
+            <div class="contact-label">WhatsApp</div>
+            <div class="contact-value">+25416194387</div>
+          </a>
+
+          <!-- Email Card -->
+          <a href="mailto:pheniceotieno97@gmail.com" class="contact-card reveal-on-scroll stagger-3" aria-label="Send email to pheniceotieno97@gmail.com">
+            <div class="contact-icon-bubble">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">pheniceotieno97@gmail.com</div>
+          </a>
+
+          <!-- Instagram Card -->
+          <a href="http://www.instagram.com/phys_kitchen_delights?igsi=ZDI6MDg5aTJvNjdp&utm_source=qr" 
+             class="contact-card reveal-on-scroll stagger-4" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             aria-label="Visit Phy's Kitchen Delights Instagram Profile">
+            <div class="contact-icon-bubble">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </div>
+            <div class="contact-label">Instagram</div>
+            <div class="contact-value">@phys_kitchen_delights</div>
+          </a>
+        </div>
+
+        <!-- Short Inviting Message Box -->
+        <div class="contact-invite-box reveal-on-scroll stagger-2">
+          <h3 class="contact-invite-title">Bespoke Orders &amp; Inquiries</h3>
+          <p class="contact-invite-text">
+            Have an upcoming birthday, wedding, or celebration? Let's design a treat that will dazzle your guests and delight your palate.
+          </p>
+          <a href="https://wa.me/25416194387?text=Hello%20Phy's%20Kitchen%20Delights!%20I%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20more%20details%3F" 
+             class="btn-whatsapp" 
+             data-whatsapp-link 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             aria-label="Chat with Phy's Kitchen Delights on WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/></svg>
+            <span>Message on WhatsApp Now</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       8. FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand Info -->
+        <div>
+          <div class="footer-brand-title">Phy's Kitchen Delights</div>
+          <p class="footer-brand-desc">
+            Handcrafted celebration cakes, bespoke wedding tiers, and luxury boutique pastries made with love and passion in Nairobi, Kenya.
+          </p>
+          <div class="footer-socials" aria-label="Social and Contact Links">
+            <a href="tel:+25416194387" class="footer-social-link" aria-label="Phone">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            </a>
+            <a href="https://wa.me/25416194387?text=Hello%20Phy's%20Kitchen%20Delights!%20I%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20more%20details%3F" 
+               class="footer-social-link" 
+               data-whatsapp-link 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/></svg>
+            </a>
+            <a href="mailto:pheniceotieno97@gmail.com" class="footer-social-link" aria-label="Email">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+            <a href="http://www.instagram.com/phys_kitchen_delights?igsi=ZDI6MDg5aTJvNjdp&utm_source=qr" 
+               class="footer-social-link" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About Our Baker</a>
+            <a href="#creations">Our Creations</a>
+            <a href="#how-to-order">How to Order</a>
+            <a href="#reviews">Client Reviews</a>
+            <a href="#contact">Contact &amp; Inquiries</a>
+          </div>
+        </div>
+
+        <!-- Direct Contact Details -->
+        <div class="footer-column">
+          <h4>Get in Touch</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              <span>+25416194387</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              <span>pheniceotieno97@gmail.com</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              <span>Nairobi, Kenya</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div>&copy; 2026 Phy's Kitchen Delights. All rights reserved.</div>
+        <div>Handcrafted with love and passion for sweet moments.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       9. FLOATING UTILITY BUTTONS
+       ========================================================================= -->
+  <!-- Floating WhatsApp Button (Fixed Bottom-Right with gentle pulse) -->
+  <a href="https://wa.me/25416194387?text=Hello%20Phy's%20Kitchen%20Delights!%20I%20would%20like%20to%20place%20an%20order.%20Could%20you%20please%20share%20more%20details%3F" 
+     class="floating-whatsapp-btn" 
+     id="floating-whatsapp-btn" 
+     data-whatsapp-link 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     aria-label="Chat with Phy's Kitchen Delights on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.23-.17-.48-.3z"/></svg>
+  </a>
+
+  <!-- Floating Back to Top Button (Fixed Bottom-Left) -->
+  <button class="back-to-top-btn" id="back-to-top-btn" aria-label="Back to Top">
+    <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+
+  <!-- Vanilla JavaScript -->
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
